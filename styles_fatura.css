@@ -1,0 +1,125 @@
+* {
+    max-width: 900px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    margin: 1rem;
+    border: 1px solid #000000;
+}
+header img{
+    margin-top: 1rem;
+    margin-left: 7rem;
+}
+
+.headline{
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    margin-left: 8rem;
+}
+
+.box-infoshadow {
+    background: #EEE;
+    width: 300px;
+    height: 70px;
+    margin-right: 4rem;
+}
+
+.heading{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.client {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    color: #708090;
+}
+
+.client-desc {
+    background-color: #EEE;
+    border-top: 6px solid rgb(88, 0, 0);
+    margin-right: 2px;
+    padding: 10px 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: end;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.box-n {
+    border: 1px solid #a9a9a9;
+    color: #708090;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    margin-right: 3rem;
+    padding: 0 3rem;
+}
+
+.iva-info-container{
+    max-width: 1200px;
+    margin-top: 2rem;
+    margin-left: 1.8rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.iva-table{
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 900;
+    height: fit-content; 
+    width: 35vw;
+}
+.iva{
+    background-color: #EEE;
+    border-bottom: 5px solid rgb(88, 0, 0);
+    margin-right: 2px;
+    color: rgb(88, 0, 0);
+}
+
+.table-iva-value{
+    height: fit-content; 
+    width: 45vw;
+    margin-top: 2rem;
+    border: 2px solid #EEE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #708090;
+}
+
+.iva-obs-container{
+    background-color: #EEE;
+    color: rgb(88, 0, 0);
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.iva-obs-description{
+    color: #a9a9a9;
+}
+
+.info-procces{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: flex-start;
+    color: #708090;
+    font-size: 10px;
+}
